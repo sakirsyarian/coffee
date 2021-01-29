@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link-navbar{
+    @apply uppercase mt-1 block px-8 py-2 rounded-md text-base font-medium text-gray-800 hover:text-white hover:bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-900 transition duration-150 ease-in-out;
+}
